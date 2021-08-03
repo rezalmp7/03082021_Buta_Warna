@@ -1,0 +1,144 @@
+html, body
+{
+    font-family: Poppins !important;
+    font-weight: 400;
+    height: 100%;
+    background-color: #F8F8FD;
+}
+
+.color-white
+{
+    color: white;
+}
+.bg-color-white
+{
+    background-color: white;
+}
+.poppins-light
+{
+    font-family: Poppins !important;
+    font-weight: 300;
+}
+.poppins-reguler
+{
+    font-family: Poppins !important;
+    font-weight: 400;
+}
+.poppins-medium
+{
+    font-family: Poppins !important;
+    font-weight: 500;
+}
+.poppins-semi-bold
+{
+    font-family: Poppins !important;
+    font-weight: 600;
+}
+.poppins-bold
+{
+    font-family: Poppins !important;
+    font-weight: 700;
+}
+.poppins-semi-black
+{
+    font-family: Poppins !important;
+    font-weight: 800;
+}
+.poppins-black
+{
+    font-family: Poppins !important;
+    font-weight: 800;
+}
+
+#login .right
+{
+    font-family: inter;
+}
+#login .right h2
+{
+    font-size: 48px;
+}
+#login .uk-overlay p
+{
+    font-size: 48px;
+}
+
+.menu
+{
+    color: white;
+    background-image: linear-gradient(to bottom, #5BA4FA, #1C5BFF);
+}
+.menu>div
+{
+    position: relative;
+}
+.menu footer
+{
+    position: absolute;
+    bottom: 0;
+}
+.menu h1
+{
+    color: white;
+    font-size: 18px;
+
+}
+.menu ul li a
+{
+    color: #92BCFD;
+    padding: 0px 15px;
+    border-left: 6px solid transparent;
+    transition: all 0.5s ease;
+}
+.menu ul li a:hover
+{
+    color: white;
+}
+.menu ul li.uk-active a
+{
+    color: white !important;
+    border-left: 6px solid white;
+}
+.menu ul li a svg, .menu ul li a i
+{
+    width: 24px !important;
+    color: white !important;
+}
+.menu ul li a path, #dashboard .content #body .card .uk-card path
+{
+    fill: white !important;
+}
+.content #header .photo
+{
+    padding: 5px;
+}
+.content #header .nama
+{
+    padding: 5px;
+}
+.content #header .nama h4, #home .content #header .nama label
+{
+    font-size: 13px;
+}
+#dashboard .content #body .card .uk-card
+{
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(160deg, #5BA4FA, #1C5BFF);
+    box-shadow: 3px 3px 10px #888888;
+}
+#dashboard .content #body .card .uk-card h3
+{
+    color: white;
+    font-size: 18;
+}
+#dashboard .content #body .card .uk-card .uk-text-large
+{
+    font-size: 36px !important;
+}
+
+#pasien h2.id
+{
+    font-size: 50px;
+    color: red;
+}
